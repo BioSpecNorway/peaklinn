@@ -1,0 +1,13 @@
+float_precision: true
+n_blocks: 7
+start_n_filters: 32
+kernel_size: 3
+downsampling: 'str'
+n_end_convs: 3
+batch_norm: true
+cbam: true
+cbam_kernel_size: 7
+with_wavelengths: true
+skip_connections: true
+zero_mean_qext: true
+one_scale_qext: true

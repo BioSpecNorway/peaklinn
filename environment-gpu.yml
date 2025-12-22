@@ -1,10 +1,20 @@
 name: peaklinn
 channels:
+  - pytorch
+  - nvidia
   - conda-forge
 dependencies:
   - python=3.9
-  - pip
+
+  - pytorch
+  - pytorch-cuda=11.8
+
+  - matplotlib
+  - ipympl
+  - jupyterlab
   - scikit-learn=0.23
+
+  - pip
   - pip:
       # install peaklinn in the editable mode
       # so it is available in notebooks
