@@ -1,9 +1,12 @@
 # A Universal Approach to Mie Scatter Correction in FTIR Analysis of Microsized Samples
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15462720.svg)](https://doi.org/10.5281/zenodo.15462720)
 
 This repository hosts a reference implementation of the PeakLiNN and ChemLiNN approaches for Mie scattering correction that were published in the paper "[A Universal Approach to Mie Scatter Correction in FTIR Analysis of Microsized Samples](https://doi.org/10.1021/acsomega.5c07884)".
 
+Model weights can be downloaded from the Zenodo repository https://doi.org/10.5281/zenodo.15462720 
+
 * [x] Inference code
-* [ ] Published weights and validation hyperspectral images
+* [x] Published weights and validation hyperspectral images
 * [ ] Installation instructions
 * [ ] Inference example
 * [ ] Training code
@@ -11,7 +14,7 @@ This repository hosts a reference implementation of the PeakLiNN and ChemLiNN ap
 
 
 > [!NOTE]
-> We are harmonizing our code base, so that it can be easily read and used. It will be gradually rolled out in the upcoming week. We expect to finish it before Christmas. Do not hesitate to contact if you are interested: uladzislau.blazhko@nmbu.no
+> We are harmonizing our code base, so that it can be easily read and used. It will be gradually rolled out in January. Do not hesitate to contact if you are interested: uladzislau.blazhko@nmbu.no
 
 # Cite
 
